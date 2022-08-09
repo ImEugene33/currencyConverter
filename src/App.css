@@ -28,6 +28,10 @@ span {
     color: #111;
 }
 
+ul.list {
+    padding: 0;
+}
+
 .list {
     display: flex;
     justify-content: space-around;
