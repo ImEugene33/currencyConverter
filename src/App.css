@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.fa-spin {
+    --fa-animation-duration: 6s;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+span {
+    margin: 0 20px 0 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.bills {
+    margin: 10px 20px 0 20px;
+    color: yellow;
 }
 
-.App-link {
-  color: #61dafb;
+.header {
+    border-radius: inherit;
+    padding-top: 15px;
+    min-height: 100px;
+    min-width: -webkit-fill-available;
+    background-color: grey;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.header:hover {
+    background-color: rgb(212, 212, 38);
+    color: #111;
+}
+
+.list {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.h1 {
+    margin: 60px 0 60px 0;
+    color: yellow;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.input {
+    border: 1px solid #111;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+}
+
+select {
+    margin: 0 0 0 10px;
+}
+
+.equals {
+    font-size: 50px;
+    margin: 10px 0 10px 10px;
 }
